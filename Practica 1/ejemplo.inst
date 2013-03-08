@@ -1,0 +1,11 @@
+Linea		Etiqueta	Codop		Operando
+.........................................................
+2		NULL		NULL		NULL
+3		NULL		ORG		%00001111
+4		Et1		equ		$ffFF
+5		dos		LDAA		@4732
+6		NULL		SWI		NULL
+7		NULL		DS.b		%0011000011111100
+9		NULL		NULL		NULL
+10		tres		sWi		NULL
+11		NULL		End		NULL
